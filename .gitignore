@@ -1,0 +1,28 @@
+.idea/
+*.iml
+target/
+.classpath
+.project
+.settings/
+*.pages
+src/test/*
+src/main/resources/static/
+src/main/resources/templates/
+src/main/resources/static/**
+node_modules/*
+
+
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# Other files and folders
+.settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk

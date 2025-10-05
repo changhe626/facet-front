@@ -108,70 +108,9 @@
 | **架构思想** | 分层架构, DDD, 缓存优先, 事务管理 | 清晰的架构设计，确保了代码的高内聚、低耦合和长期可维护性。 |
 | **部署** | `Docker`, 多阶段构建 | 提供优化的 `Dockerfile`，实现快速、轻量级的容器化部署。 |
 
-
-## 💬 联系我们 & 立即体验
-
-我们搭建了一个公开的演示环境，让您可以立即上手体验 Facet 的全部功能！
-
-由于平台需要账户权限管理，请通过以下任一方式联系我们，我们将非常乐意为您开通测试账户：
-
--   **邮箱**: `changhe626@163.com`
--   **微信**: 添加时请备注 `Facet` 或者 `千面`
-
-<img src="pic/微信图片.jpg" alt="微信联系方式" width="250"/>
-
-我们非常期待您的试用反馈，您的任何建议都将帮助 Facet 变得更好！
-
 ## 🚀 快速开始 (前端)
 
 想立即体验 `Facet` 吗？您可以轻松地在本地运行前端项目。
-
-本项目采用当前主流的 Vue 3 生态系统进行构建，技术选型如下：
-
-*   **前端框架**: Vue 3 (使用 `<script setup>` 的组合式 API)
-*   **构建工具**: Vite
-*   **UI 组件库**: Element Plus
-*   **路由管理**: Vue Router
-*   **HTTP 请求**: Axios
-*   **部署方案**: Docker + Nginx
-
-###  项目结构
-
-清晰的目录结构是快速上手项目的关键。本项目的核心文件结构如下：
-
-```
-facet-front/
-├── public/                # 静态资源目录 (此目录下的文件会被直接复制到网站根目录)
-│   └── logo.svg
-├── src/                   # 核心源码目录
-│   ├── api/               # 存放所有后端 API 请求函数
-│   │   ├── environment.js
-│   │   ├── featureFlags.js
-│   │   └── user.js
-│   ├── assets/            # 存放需要被 Vite 处理的静态资源 (如图片、全局CSS)
-│   │   └── logo.svg
-│   ├── layouts/           # 存放主布局组件
-│   │   └── MainLayout.vue
-│   ├── router/            # 存放路由配置
-│   │   └── index.js
-│   ├── utils/             # 存放工具函数
-│   │   └── request.js     # 封装的 Axios 实例，包含请求/响应拦截器
-│   ├── views/             # 存放页面级组件
-│   │   ├── Environments.vue
-│   │   ├── FeatureFlags.vue
-│   │   ├── Login.vue
-│   │   ├── Overview.vue
-│   │   └── Users.vue
-│   ├── App.vue            # Vue 应用的根组件，用于挂载路由和全局配置
-│   └── main.js            # 应用的入口文件
-├── .dockerignore          # 配置 Docker 构建时忽略的文件
-├── .gitignore             # 配置 Git 忽略的文件
-├── Dockerfile             # 用于构建生产环境 Docker 镜像
-├── index.html             # 应用的 HTML 入口
-├── nginx.conf             # Nginx 生产环境配置文件
-├── package.json           # 项目依赖与脚本配置
-└── vite.config.js         # Vite 配置文件 (包含开发时的 API 代理)
-```
 
 1.  **克隆仓库**:
     ```sh
@@ -211,6 +150,19 @@ facet-front/
 我们热烈欢迎任何形式的贡献！无论是提交 Issue、发起 Pull Request，还是改进文档，都是对社区的巨大帮助。
 
 请在贡献前阅读我们的 [贡献指南](CONTRIBUTING.md)。
+
+## 💬 联系我们 & 立即体验
+
+我们搭建了一个公开的演示环境，让您可以立即上手体验 Facet 的全部功能！
+
+由于平台需要账户权限管理，请通过以下任一方式联系我们，我们将非常乐意为您开通测试账户：
+
+-   **邮箱**: `changhe626@163.com`
+-   **微信**: 添加时请备注 "Facet"
+
+<img src="pic/微信图片.jpg" alt="微信联系方式" width="250"/>
+
+我们非常期待您的试用反馈，您的任何建议都将帮助 Facet 变得更好！
 
 ## 📄 许可证
 
