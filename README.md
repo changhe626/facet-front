@@ -1,7 +1,7 @@
 # Facet - 企业级功能开关与 A/B 测试平台
 
 <p align="center">
-  <img src="https://your-logo-url.com/facet-logo.png" alt="Facet Logo" width="200"/>
+  <img src="pic/facet-logo.png" alt="Facet Logo" width="200"/>
 </p>
 
 <p align="center">
@@ -108,6 +108,30 @@
 | **架构思想** | 分层架构, DDD, 缓存优先, 事务管理 | 清晰的架构设计，确保了代码的高内聚、低耦合和长期可维护性。 |
 | **部署** | `Docker`, 多阶段构建 | 提供优化的 `Dockerfile`，实现快速、轻量级的容器化部署。 |
 
+## 💻 各语言 SDK & 使用示例
+
+我们为不同语言和环境提供了相应的 SDK，方便您在自己的应用中快速集成 Facet 的功能。
+
+请点击以下链接，查看对应语言的详细接入指南和代码示例：
+
+### ☕️ Java
+
+-   [Java 17+](docs/java17.md)
+-   [Java 11](docs/java11.md)
+-   [Java 8](docs/java8.md)
+
+### 🐹 Go
+
+-   [Go (版本 >= 1.18)](docs/go_after_1_18.md)
+-   [Go (版本 < 1.18)](docs/go_before_1_18.md)
+
+### 📜 JavaScript
+
+-   [Web / 浏览器环境](docs/javascript_web.md)
+-   [Node.js (版本 >= 18)](docs/javascript_after_node_18.md)
+-   [Node.js (版本 < 18)](docs/javascript_before_node_18.md)
+
+我们正在积极开发更多语言的 SDK，敬请期待！
 
 ## 💬 联系我们 & 立即体验
 
@@ -116,11 +140,12 @@
 由于平台需要账户权限管理，请通过以下任一方式联系我们，我们将非常乐意为您开通测试账户：
 
 -   **邮箱**: `changhe626@163.com`
--   **微信**: 添加时请备注 `Facet` 或者 `千面`
+-   **微信**: 添加时请备注 "Facet"
 
 <img src="pic/微信图片.jpg" alt="微信联系方式" width="250"/>
 
 我们非常期待您的试用反馈，您的任何建议都将帮助 Facet 变得更好！
+
 
 ## 🚀 快速开始 (前端)
 
